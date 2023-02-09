@@ -1,11 +1,11 @@
 import Project from './Project';
 import projects from '../projects.js';
 
-import styles from '@/styles/Project.module.css';
+import styles from '@/styles/Projects.module.css';
 
 function Projects() {
   return (
-    <div>
+    <div className={styles.projectsContainer}>
       {projects.map((project) => (
         <Project key={project.id} project={project} />
       ))}

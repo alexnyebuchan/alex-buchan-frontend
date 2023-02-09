@@ -1,3 +1,11 @@
+:root {
+  --primary-color: rgb(193, 193, 193);
+  --background: rgb(30, 30, 30);
+  --secondary-color: blue;
+  --highlight-color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,13 +14,23 @@
 
 html,
 body {
-  /* font-family: 'Poppins', sans-serif; */
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-family: 'Inconsolata', monospace;
   line-height: 1.4;
+}
+
+h1 {
+  font-size: 75px;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--highlight-color);
 }
 
 p {
@@ -21,8 +39,8 @@ p {
 
 button {
   display: inline-block;
-  background: red;
-  color: #fff;
+  /* background: var(--highlight-color); */
+  /* color: var(--primary-color); */
   padding: 10px 20px;
   cursor: pointer;
   border: 0;

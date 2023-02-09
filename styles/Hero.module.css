@@ -1,7 +1,11 @@
 .hero {
-  padding: 5px 20px;
+  padding: 20px 20px;
   display: flex;
-  flex-direction: column;
-  background-color: gray;
-  height: fit-content;
+  justify-content: space-between;
+  /* background-color: gray; */
+  height: 225px;
+}
+
+.seventyBtn {
+  height: 40px;
 }
