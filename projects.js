@@ -6,9 +6,9 @@ const projects = [
       'lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ',
     github: 'www.google.com',
     url: 'www.yahoo.com',
-    tech: ['/images/icons/next-icon.svg', '/images/icons/strapi-icon.svg'],
-    image: 'images/project/testimg.jpg',
-    popupImage: 'images/project/popup.jpg',
+    tech: ['/images/icons/nextjs-icon.svg', '/images/icons/strapi-icon.svg'],
+    image: '/images/project/testimg.jpg',
+    popupImage: '/images/project/popup.jpg',
   },
   {
     id: 2,
@@ -22,7 +22,9 @@ const projects = [
       '/images/icons/bootstrap.svg',
       '/images/icons/django-icon.svg',
     ],
-    image: 'images/project/testimg.jpg',
-    popupImage: 'images/project/popup.jpg',
+    image: '/images/project/testimg.jpg',
+    popupImage: '/images/project/popup.jpg',
   },
 ];
+
+export default projects;
