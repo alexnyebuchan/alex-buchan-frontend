@@ -20,3 +20,41 @@
   position: relative;
   top: 6px;
 }
+
+.hamburger {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  top: 2px;
+}
+
+.dropdown {
+  display: none;
+}
+
+.dropdown:hover .dropdownContent {
+  display: flex;
+}
+
+.dropdownContent {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: var(--secondary-color);
+  border: 1px solid black;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 80px;
+  padding: 10px;
+  right: 0px;
+}
+
+@media (max-width: 480px) {
+  .links {
+    display: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+}

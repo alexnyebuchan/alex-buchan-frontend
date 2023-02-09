@@ -1,16 +1,16 @@
-/* :root {
+:root {
   --primary-color: rgb(193, 193, 193);
   --background: rgb(30, 30, 30);
   --secondary-color: rgb(17, 17, 17);
   --highlight-color: rgb(245, 245, 245);
-} */
+}
 
-:root {
+/* :root {
   --primary-color: rgb(2, 0, 1);
   --background: rgb(243, 227, 175);
   --secondary-color: rgb(91, 159, 170);
   --highlight-color: rgb(185, 47, 21);
-}
+} */
 
 /* default font */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');

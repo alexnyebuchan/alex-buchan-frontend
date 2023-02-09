@@ -23,7 +23,7 @@ function Hero() {
         <h2>Full-Stack Developer</h2>
       </div>
       <button onClick={sendTheme} className={styles.seventyBtn}>
-        70's Mode
+        ^ Select Theme
       </button>
     </div>
   );

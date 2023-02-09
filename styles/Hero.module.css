@@ -3,9 +3,10 @@
   display: flex;
   justify-content: space-between;
   /* background-color: gray; */
-  height: 225px;
+  height: auto;
+  margin-bottom: 50px;
 }
 
 .seventyBtn {
-  height: 40px;
+  max-height: 50px;
 }

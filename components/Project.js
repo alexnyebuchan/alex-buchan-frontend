@@ -17,17 +17,19 @@ function Project({ project }) {
         />
       </div>
       <div>
-        <h3>{project.title}</h3>
+        <h2>{project.title}</h2>
         <div>
-          <span>Tech used:</span>
           {icons.map((icon) => (
-            <Image
-              className={styles.tech}
-              alt="/"
-              src={icon}
-              width={23}
-              height={21}
-            />
+            <div className={styles.tech}>
+              <Image
+                className={styles.techIcon}
+                alt="/"
+                src={icon.url}
+                width={35}
+                height={35}
+              />
+              <div className={styles.techInfo}>{icon.title}</div>
+            </div>
           ))}
         </div>
         <p>{project.description}</p>
