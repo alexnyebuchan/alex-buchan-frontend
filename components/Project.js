@@ -7,8 +7,14 @@ function Project({ project }) {
 
   return (
     <div className={styles.projectContainer}>
-      <div>
-        <Image alt="/" src={project.image} width={100} height={100} />
+      <div className={styles.imageContainer}>
+        <Image
+          className={styles.projectImage}
+          alt="/"
+          src={project.image}
+          width={550}
+          height={366}
+        />
       </div>
       <div>
         <h3>{project.title}</h3>

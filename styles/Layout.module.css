@@ -1,7 +1,6 @@
 .container {
-  /* height: 85vh; */
+  min-height: 100vh;
   margin: auto;
   max-width: 1200px;
   padding: 10px 10px;
-  /* background-color: aquamarine; */
 }

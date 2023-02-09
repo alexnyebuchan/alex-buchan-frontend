@@ -1,14 +1,30 @@
 .projectContainer {
   width: 50%;
   padding: 4px 4px;
-  border: 2px solid;
+  border: 2px solid var(--primary-color);
+  margin: 0 3px;
+  background-color: var(--secondary-color);
+}
+
+.projectContainer:hover {
+  box-shadow: 1px 0px 2px var(--highlight-color);
+  transform: scale(1.001);
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.projectImage {
+  border: 1px solid var(--primary-color);
 }
 
 .tech:hover {
   transform: scale(1.2);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1157px) {
   .projectContainer {
     width: 100%;
     margin-bottom: 10px;

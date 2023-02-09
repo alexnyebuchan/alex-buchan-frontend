@@ -7,7 +7,7 @@ const projects = [
     github: 'www.google.com',
     url: 'www.yahoo.com',
     tech: ['/images/icons/nextjs-icon.svg', '/images/icons/strapi-icon.svg'],
-    image: '/images/project/testimg.jpg',
+    image: '/images/project/92groove-main.jpg',
     popupImage: '/images/project/popup.jpg',
   },
   {
@@ -22,7 +22,7 @@ const projects = [
       '/images/icons/bootstrap.svg',
       '/images/icons/django-icon.svg',
     ],
-    image: '/images/project/testimg.jpg',
+    image: '/images/project/alzanders-main.jpg',
     popupImage: '/images/project/popup.jpg',
   },
 ];

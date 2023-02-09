@@ -1,4 +1,5 @@
 .navbar {
+  background-color: var(--secondary-color);
   height: 50px;
   display: flex;
   justify-content: space-between;
@@ -6,4 +7,16 @@
   /* background-color: gray; */
   padding: 0 25px;
   border-bottom: 2px solid;
+}
+
+.link {
+  padding: 10px;
+  border-left: 1px solid;
+}
+
+.githubImg {
+  height: 27px;
+  width: 27px;
+  position: relative;
+  top: 6px;
 }
