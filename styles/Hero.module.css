@@ -1,0 +1,7 @@
+.hero {
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  height: fit-content;
+}
