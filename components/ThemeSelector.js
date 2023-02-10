@@ -21,9 +21,13 @@ function ThemeSelector() {
         <a onClick={() => sendTheme('seventies')} href="#">
           70's Barry White
         </a>
-        <a onClick={() => sendTheme('rave')} href="#">
-          90's Summer of Love
+        <a onClick={() => sendTheme('napoli')} href="#">
+          Napoli
         </a>
+        {/* <a onClick={() => sendTheme('rave')} href="#">
+          90's Summer of Love
+        </a> */}
+
         <a onClick={() => sendTheme('default')} href="#">
           Default
         </a>

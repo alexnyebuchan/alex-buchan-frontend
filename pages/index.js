@@ -53,22 +53,22 @@ export default function Home() {
         '--highlight-color',
         themes.default.highlight
       );
-    } else if (thm === 'rave') {
+    } else if (thm === 'napoli') {
       document.documentElement.style.setProperty(
         '--primary-color',
-        themes.rave.primary
+        themes.napoli.primary
       );
       document.documentElement.style.setProperty(
         '--background',
-        themes.rave.background
+        themes.napoli.background
       );
       document.documentElement.style.setProperty(
         '--secondary-color',
-        themes.rave.secondary
+        themes.napoli.secondary
       );
       document.documentElement.style.setProperty(
         '--highlight-color',
-        themes.rave.highlight
+        themes.napoli.highlight
       );
     }
   }, [state]);
