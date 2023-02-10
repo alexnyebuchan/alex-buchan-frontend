@@ -7,6 +7,29 @@
   margin-bottom: 50px;
 }
 
-.seventyBtn {
-  max-height: 50px;
+.theme {
+  width: 20%;
+}
+
+.themeBtn {
+  width: 100%;
+  border: 1px solid var(--primary-color);
+}
+
+.themeDropdown {
+  display: none;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  padding: 8px;
+  margin-top: 2px;
+  border: 1px solid var(--primary-color);
+}
+
+.theme a {
+  margin-bottom: 8px;
+  border-top: 1px solid black;
+}
+
+.theme:hover .themeDropdown {
+  display: flex;
 }
