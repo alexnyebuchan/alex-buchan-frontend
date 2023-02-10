@@ -4,7 +4,7 @@ import styles from '@/styles/Layout.module.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-function Layout({ title, description, children }) {
+function Layout({ children }) {
   return (
     <div>
       <Head>

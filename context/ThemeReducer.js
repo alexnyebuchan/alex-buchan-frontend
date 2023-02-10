@@ -3,7 +3,7 @@ const ThemeReducer = (state, action) => {
     case 'SET_THEME':
       return {
         ...state,
-        theme: action.payload.theme,
+        currentTheme: action.payload.theme,
       };
   }
 };

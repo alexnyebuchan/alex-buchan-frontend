@@ -1,12 +1,15 @@
 import Link from 'next/link';
 import Layout from '@/components/Layout';
 
+import { AiOutlineArrowLeft } from 'react-icons/ai';
+
 function about() {
   return (
     <Layout>
-      <div>About</div>
       <Link href="/">
-        <button>Back to Home</button>
+        <button>
+          <AiOutlineArrowLeft /> Back to Home
+        </button>
       </Link>
     </Layout>
   );

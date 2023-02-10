@@ -2,6 +2,9 @@ import styles from '@/styles/Project.module.css';
 
 import Image from 'next/image';
 
+import { AiOutlineEye } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
+
 function Project({ project }) {
   const icons = project.tech;
 
@@ -33,6 +36,15 @@ function Project({ project }) {
           ))}
         </div>
         <p>{project.description}</p>
+      </div>
+      <div className={styles.projectLinks}>
+        <button className={styles.projectLink}>
+          <AiOutlineEye /> <span>View Online</span>
+        </button>
+        <button className={styles.projectLink}>
+          <AiFillGithub />
+          <span>See Code</span>
+        </button>
       </div>
     </div>
   );

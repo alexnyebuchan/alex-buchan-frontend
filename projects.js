@@ -3,9 +3,9 @@ const projects = [
     id: 1,
     title: '92 Groove',
     description:
-      'lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ',
+      "New music platform started with a friend, where fans can listen to mixes and buy cassettes. To improve upon the last website's performance and SEO I chose to use Next.js front-end and Strapi back-end for this project. \n Audio player utilises useContext and useReducer hooks for state management, as well as the  CSS module system for the UI. Currently we're using dummy data from previous radio shows but we're looking to go live in Spring 2023.",
     github: 'www.google.com',
-    url: 'www.yahoo.com',
+    url: 'www.92groove.uk',
     tech: [
       {
         url: '/images/icons/nextjs-icon.svg',
