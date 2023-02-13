@@ -3,9 +3,9 @@ const projects = [
     id: 1,
     title: '92 Groove Music App',
     description:
-      "New music platform started with a friend, where fans can listen to mixes and buy cassettes. To improve upon the last website's performance and SEO I chose to use Next.js front-end and Strapi back-end for this project. \n Audio player utilises useContext and useReducer hooks for state management, as well as the  CSS module system for the UI. Currently we're using dummy data from previous radio shows but we're looking to go live in Spring 2023.",
-    github: 'www.google.com',
-    url: 'www.92groove.uk',
+      "New music platform where fans can listen to radio mixes and buy cassettes from myself and a friend. To improve upon my last project's SEO I chose to use Next.js front-end with a Strapi back-end for this project. The audio player utilises useContext and useReducer hooks for state management, as well as the  CSS module system for the UI. Currently we're using dummy data from previous radio shows but we're looking to go live in Spring 2023.",
+    github: 'https://github.com/alexnyebuchan/92groove',
+    url: 'https://www.92groove.uk/',
     tech: [
       {
         url: '/images/icons/nextjs-icon.svg',
@@ -27,11 +27,11 @@ const projects = [
   ,
   {
     id: 2,
-    title: 'Al Zanders Portfolio App',
+    title: 'Al Zanders Official Website',
     description:
-      'ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ',
-    github: 'www.google.com',
-    url: 'www.yahoo.com',
+      'My first live React project, which is a simple portfolio site for my music as Al Zanders. Utilises React basics such as Components, Props and the Router. For the styling I chose React-Bootstrap, including a carousel on the Hero component, Pagination, Dropdown menus and more. The website is fully dynamic using a Django backend and the Django Rest Framework for the API. News items and releases can be added online using the Django admin area.',
+    github: 'https://github.com/alexnyebuchan/alzandersone',
+    url: 'http://www.alzanders.co.uk/',
     tech: [
       {
         url: '/images/icons/react.svg',

@@ -1,0 +1,48 @@
+.aboutHero {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.aboutInfoContainer {
+  padding: 20px 20px;
+  margin: 0 15px;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.profileSection {
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.profile {
+  max-width: 300px;
+  height: auto;
+  max-height: 300px;
+  padding-right: 25px;
+}
+
+.profileInfo {
+  display: block;
+  align-items: center;
+}
+
+.icon {
+  width: 80px;
+  height: auto;
+  padding: 10px;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease-in;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+}

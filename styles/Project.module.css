@@ -32,6 +32,7 @@
 }
 
 .techIcon:hover {
+  transition: 0.1s ease-in;
   transform: scale(1.2);
 }
 
@@ -49,9 +50,8 @@
 }
 
 .projectLinks {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 40px;
+  display: block;
+  justify-items: center;
 }
 
 .projectLink {

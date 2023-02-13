@@ -5,7 +5,6 @@ import { useContext } from 'react';
 import { ThemeContext } from '@/context/ThemeContext';
 
 import { GiPalmTree } from 'react-icons/gi';
-import { GiBoombox } from 'react-icons/gi';
 
 function Hero() {
   const { state } = useContext(ThemeContext);
@@ -17,7 +16,6 @@ function Hero() {
         <h3>
           Full-Stack Developer{' '}
           {state.currentTheme === 'napoli' && <GiPalmTree />}
-          {state.currentTheme === 'seventies' && <GiBoombox />}
         </h3>
       </div>
 
