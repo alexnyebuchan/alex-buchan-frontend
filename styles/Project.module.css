@@ -1,8 +1,9 @@
 .projectContainer {
+  flex-basis: 48%;
   width: 50%;
   padding: 4px 4px;
   border: 2px solid var(--primary-color);
-  margin: 0 3px;
+  margin: 4px;
   background-color: var(--secondary-color);
 }
 
@@ -17,9 +18,21 @@
   justify-content: center;
 }
 
+.projectContainer:hover .popupImage {
+  display: block;
+}
+
 .projectImage {
   border: 1px solid var(--primary-color);
   width: 100%;
+  height: auto;
+}
+
+.popupImage {
+  display: none;
+  position: absolute;
+  border: 1px solid var(--primary-color);
+  width: 98%;
   height: auto;
 }
 

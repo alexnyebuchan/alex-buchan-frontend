@@ -11,8 +11,8 @@ function Project({ project }) {
 
   return (
     <div className={styles.projectContainer}>
-      <div className={styles.imageContainer}>
-        <Link target="_blank" href={project.url}>
+      <Link target="_blank" href={project.url}>
+        <div className={styles.imageContainer}>
           <Image
             className={styles.projectImage}
             alt="/"
@@ -20,8 +20,16 @@ function Project({ project }) {
             width={550}
             height={366}
           />
-        </Link>
-      </div>
+          <Image
+            className={styles.popupImage}
+            alt="/"
+            src={project.popupImage}
+            width={550}
+            height={366}
+          />
+        </div>
+      </Link>
+
       <div>
         <Link target="_blank" href={project.url}>
           <h2>{project.title}</h2>

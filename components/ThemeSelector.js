@@ -29,7 +29,7 @@ function ThemeSelector() {
         </a> */}
 
         <a onClick={() => sendTheme('default')} href="#">
-          Default
+          Dark Theme (default)
         </a>
       </div>
     </div>

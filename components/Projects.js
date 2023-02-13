@@ -5,11 +5,14 @@ import styles from '@/styles/Projects.module.css';
 
 function Projects() {
   return (
-    <div className={styles.projectsContainer}>
-      {projects.map((project) => (
-        <Project key={project.id} project={project} />
-      ))}
-    </div>
+    <>
+      <p className={styles.myProjects}>Recent projects:</p>
+      <div className={styles.projectsContainer}>
+        {projects.map((project) => (
+          <Project key={project.id} project={project} />
+        ))}
+      </div>
+    </>
   );
 }
 

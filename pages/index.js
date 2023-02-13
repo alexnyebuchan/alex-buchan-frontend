@@ -18,6 +18,7 @@ export default function Home() {
 
   const thm = state.currentTheme;
 
+  // Theme Selector
   useEffect(() => {
     if (thm === 'seventies') {
       document.documentElement.style.setProperty(

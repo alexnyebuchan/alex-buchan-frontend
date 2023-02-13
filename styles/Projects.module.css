@@ -1,6 +1,15 @@
 .projectsContainer {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 5px 10px;
+}
+
+.myProjects {
+  color: var(--highlight-color);
+  font-size: large;
+  padding: 0 15px;
 }
 
 @media (max-width: 992px) {
