@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className={styles.navContainer}>
       <div className={styles.navbar}>
-        <div>Alex Buchan</div>
+        <Link href="/"> Alex Buchan</Link>
         <div className={styles.dropdown}>
           <BiMenuAltRight className={styles.hamburger} />
           <div className={styles.dropdownContent}>

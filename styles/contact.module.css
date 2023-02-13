@@ -1,0 +1,63 @@
+.contactHero {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.contactContainer {
+  padding: 20px 20px;
+  margin: 0 15px;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.email {
+  color: var(--highlight-color);
+  text-decoration: underline;
+}
+
+.email:hover {
+  color: var(--primary-color);
+}
+
+.form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formInputs {
+  width: 100%;
+}
+
+.formGroup {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.formControl {
+  max-width: 500px;
+  width: 70%;
+  font-family: 'Inconsolata', monospace;
+  color: var(--primary-color);
+  background-color: var(--background);
+  font-size: 22px;
+}
+.formGroup textarea {
+  height: 300px;
+}
+
+.submitBtn {
+  background-color: var(--highlight-color);
+  color: black;
+  width: 200px;
+}
+
+.submitBtn:hover {
+  background-color: var(--background);
+  color: var(--primary-color);
+}

@@ -12,16 +12,21 @@ function Project({ project }) {
   return (
     <div className={styles.projectContainer}>
       <div className={styles.imageContainer}>
-        <Image
-          className={styles.projectImage}
-          alt="/"
-          src={project.image}
-          width={550}
-          height={366}
-        />
+        <Link target="_blank" href={project.url}>
+          <Image
+            className={styles.projectImage}
+            alt="/"
+            src={project.image}
+            width={550}
+            height={366}
+          />
+        </Link>
       </div>
       <div>
-        <h2>{project.title}</h2>
+        <Link target="_blank" href={project.url}>
+          <h2>{project.title}</h2>
+        </Link>
+
         <div>
           {icons.map((icon) => (
             <div className={styles.tech}>
