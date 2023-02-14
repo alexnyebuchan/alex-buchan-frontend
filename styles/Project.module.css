@@ -7,6 +7,13 @@
   background-color: var(--secondary-color);
 }
 
+.projectContainer h2 {
+  text-decoration: underline;
+}
+.projectContainer h2:hover {
+  color: var(--primary-color);
+}
+
 .projectContainer:hover {
   transition: 0.1s ease-in;
   transform: scale(1.01);

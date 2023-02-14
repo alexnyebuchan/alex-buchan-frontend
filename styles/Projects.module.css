@@ -12,6 +12,47 @@
   padding: 0 15px;
 }
 
+.tech {
+  display: inline-block;
+}
+
+.techIcon {
+  margin-right: 10px;
+}
+
+.techIcon:hover {
+  transition: 0.1s ease-in;
+  transform: scale(1.2);
+}
+
+.tech:hover .techInfo {
+  display: block;
+}
+
+.techInfo {
+  display: none;
+  margin-top: 5px;
+  padding: 5px;
+  position: absolute;
+  background-color: var(--primary-color);
+  color: var(--background);
+}
+
+.thisWebsite {
+  padding: 0 27px;
+  margin-top: 30px;
+  margin-bottom: 39px;
+}
+
+.thisWebsite a {
+  color: var(--highlight-color);
+  font-weight: 900;
+  text-decoration: underline;
+}
+.thisWebsite a:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 992px) {
   .projectsContainer {
     flex-direction: column;

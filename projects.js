@@ -29,7 +29,7 @@ const projects = [
     id: 2,
     title: 'Al Zanders Official Website',
     description:
-      'My first live React project, which is a simple portfolio site for my music as Al Zanders. Utilises React basics such as Components, Props, the Router and Fetch. For the styling I chose React-Bootstrap, including a carousel on the Hero component, Pagination, Dropdown menus and more. The website is fully dynamic using a Django backend and the Django Rest Framework for the API. News items and releases can be added online using the Django admin area.',
+      'My first live React project, which is a simple portfolio site for my music as Al Zanders. Utilises React basics such as Components, Props, Router and Fetch. For the styling I chose React-Bootstrap, including a carousel on the Hero component, Pagination, Dropdown menus and more. The website is fully dynamic using a Django backend and the Django Rest Framework for the API. News items and releases can be added online using the Django admin area.',
     github: 'https://github.com/alexnyebuchan/alzandersone',
     url: 'http://www.alzanders.co.uk/',
     tech: [
@@ -48,26 +48,6 @@ const projects = [
     ],
     image: '/images/project/alzanders.jpg',
     popupImage: '/images/project/alzanders-main.jpg',
-  },
-  {
-    id: 3,
-    title: 'This website',
-    description:
-      'Simple front-end portfolio site that uses Next.js and CSS for styling. Uses useContext and useReducer hooks for managing the state of the Themes.',
-    github: 'https://github.com/alexnyebuchan/alzandersone',
-    url: 'http://www.alzanders.co.uk/',
-    tech: [
-      {
-        url: '/images/icons/nextjs-icon.svg',
-        title: 'Next.js',
-      },
-      {
-        url: '/images/icons/css-3.svg',
-        title: 'CSS 3',
-      },
-    ],
-    image: '/images/project/alzanders-main.jpg',
-    popupImage: '/images/project/catselfie2.jpg',
   },
 ];
 

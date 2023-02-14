@@ -38,13 +38,15 @@ function about() {
         </span>
 
         <p>
-          As a developer blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah
+          Having worked in Customer Service related roles for the last three
+          years, recently I made the decision to begin a career in web
+          development. After starting the way all devs do, learning HTML and
+          CSS, I made the slightly leftfield choice of learning Python and the
+          backend framework Django next. This was because of my interest in
+          API's and I wanted to build my first dynamic website that I could post
+          online. Safe to say, without the knowledge of Javascript or a front
+          end framework, it looked like something made in the 1990s, but it did
+          the trick.
         </p>
         <div className={styles.iconContainer}>
           <span>
@@ -53,21 +55,26 @@ function about() {
           <span>
             <Image alt="/" className={styles.icon} src={CSSIcon} />
           </span>
+
           <span>
-            <Image alt="/" className={styles.icon} src={JsIcon} />
+            <Image alt="/" className={styles.icon} src={DjangoIcon} />
           </span>
         </div>
         <p>
-          As a developer blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah
+          Thus I did courses on Javascript, React and Next.js, and the websites
+          you see on here (including this one) are built on these. In terms of
+          styling, I've also used Tailwind and Bootstrap. Although all these
+          Frameworks are great for building web apps fast with modern
+          interfaces, I feel it's important to have a firm understanding of the
+          fundamentals. For instance I use vanilla CSS where possible and try to
+          keep practicing my JS even though front-end frameworks are all the
+          talk at the moment.
         </p>
         <div className={styles.iconContainer}>
           <div>
+            <span>
+              <Image alt="/" className={styles.icon} src={JsIcon} />
+            </span>
             <span>
               <Image alt="/" className={styles.icon} src={ReactIcon} />
             </span>
@@ -77,21 +84,15 @@ function about() {
           </div>
           <div>
             <span>
-              <Image alt="/" className={styles.icon} src={DjangoIcon} />
-            </span>
-            <span>
               <Image alt="/" className={styles.icon} src={StrapiIcon} />
             </span>
           </div>
         </div>
         <p>
-          As a developer blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah
+          Currently I am working on some clone websites, including a Guardian
+          copy using it's API. I am mainly looking for a front-end role working
+          with React (or preferably Next) or a full stack role where I get to
+          work on all areas.
         </p>
       </div>
     </Layout>
