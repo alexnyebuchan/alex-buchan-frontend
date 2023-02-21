@@ -4,7 +4,7 @@ import Layout from '@/components/Layout';
 
 import styles from '@/styles/about.module.css';
 
-import Profile from '../public/images/about/ronswanson.jpg';
+import Profile from '../public/images/about/headshot.jpg';
 import CSSIcon from '../public/images/icons/css-3.svg';
 import DjangoIcon from '../public/images/icons/django-icon.svg';
 import HtmlIcon from '../public/images/icons/html-5.svg';
