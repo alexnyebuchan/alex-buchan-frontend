@@ -42,3 +42,9 @@
 .techGroup:hover .techInfo {
   display: block;
 }
+
+@media (max-width: 500px) {
+  .hero {
+    flex-direction: column;
+  }
+}

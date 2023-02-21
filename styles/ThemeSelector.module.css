@@ -24,3 +24,10 @@
 .theme:hover .themeDropdown {
   display: flex;
 }
+
+@media (max-width: 500px) {
+  .theme {
+    width: 65%;
+    margin-top: 32px;
+  }
+}
