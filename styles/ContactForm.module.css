@@ -33,7 +33,7 @@
 
 .formControl {
   max-width: 500px;
-  width: 70%;
+  width: 100%;
   font-family: 'Inconsolata', monospace;
   color: var(--primary-color);
   background-color: var(--background);
@@ -76,4 +76,10 @@
   color: var(--primary-color);
   padding: 40px;
   border: 2px solid var(--highlight-color);
+}
+
+@media (max-width: 760px) {
+  .formGroup {
+    flex-direction: column;
+  }
 }
