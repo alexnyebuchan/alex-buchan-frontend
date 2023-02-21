@@ -19,11 +19,12 @@ function ThemeSelector() {
       <button className={styles.themeBtn}>^ Select Theme</button>
       <div className={styles.themeDropdown}>
         <a onClick={() => sendTheme('seventies')} href="#">
-          70's Barry White
+          70s
         </a>
         <a onClick={() => sendTheme('napoli')} href="#">
           Napoli
         </a>
+
         {/* <a onClick={() => sendTheme('rave')} href="#">
           90's Summer of Love
         </a> */}

@@ -66,9 +66,9 @@ function about() {
           styling, I've also used Tailwind and Bootstrap. Although all these
           Frameworks are great for building web apps fast with modern
           interfaces, I feel it's important to have a firm understanding of the
-          fundamentals. For instance I use vanilla CSS where possible and try to
-          keep practicing my JS even though front-end frameworks are all the
-          talk at the moment.
+          fundamentals. For instance I use a fair amount of vanilla CSS and JS
+          even though front-end frameworks are what I usually use to build my
+          projects.
         </p>
         <div className={styles.iconContainer}>
           <div>

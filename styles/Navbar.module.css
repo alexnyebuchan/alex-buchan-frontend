@@ -11,14 +11,18 @@
 
 .link {
   padding: 10px;
-  border-left: 1px solid;
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
 }
 
 .githubImg {
-  height: 27px;
-  width: 27px;
-  position: relative;
-  top: 6px;
+  height: auto;
+  width: 26px;
 }
 
 .hamburger {

@@ -54,7 +54,9 @@ function ContactForm() {
       >
         <div className={styles.formInputs}>
           <div className={styles.formGroup}>
-            <label htmlFor="user_name">Name:</label>
+            <label className={styles.label} htmlFor="user_name">
+              Name:
+            </label>
             <input
               type="text"
               className={styles.formControl}
@@ -63,7 +65,9 @@ function ContactForm() {
             />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="user_email">Email:</label>
+            <label className={styles.label} htmlFor="user_email">
+              Email:
+            </label>
             <input
               type="email"
               className={styles.formControl}
@@ -72,7 +76,9 @@ function ContactForm() {
             />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="user_message">Message:</label>
+            <label className={styles.label} htmlFor="user_message">
+              Message:
+            </label>
             <textarea
               className={styles.formControl}
               name="user_message"

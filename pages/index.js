@@ -11,7 +11,7 @@ import Projects from '@/components/Projects';
 
 export default function Home() {
   const initialState = {
-    currentTheme: 'default',
+    currentTheme: '',
   };
 
   const [state, dispatch] = useReducer(ThemeReducer, initialState);
@@ -21,6 +21,8 @@ export default function Home() {
   // Theme Selector
   useEffect(() => {
     if (thm === 'seventies') {
+      document.body.style.fontFamily = 'corben, cursive';
+
       document.documentElement.style.setProperty(
         '--primary-color',
         themes.seventies.primary
@@ -38,6 +40,7 @@ export default function Home() {
         themes.seventies.highlight
       );
     } else if (thm === 'default') {
+      document.body.style.fontFamily = 'Inconsolata, monospace';
       document.documentElement.style.setProperty(
         '--primary-color',
         themes.default.primary
@@ -55,6 +58,8 @@ export default function Home() {
         themes.default.highlight
       );
     } else if (thm === 'napoli') {
+      document.body.style.fontFamily = 'Rozha One, serif';
+
       document.documentElement.style.setProperty(
         '--primary-color',
         themes.napoli.primary

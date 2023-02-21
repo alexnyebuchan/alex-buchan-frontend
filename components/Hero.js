@@ -59,10 +59,10 @@ function Hero() {
     <div className={styles.hero}>
       <div className={styles.heroName}>
         <h1>Alex Buchan</h1>
-        <h3>
+        <h2>
           Full-Stack Developer{' '}
           {state.currentTheme === 'napoli' && <GiPalmTree />}
-        </h3>
+        </h2>
         <div className={styles.techContainer}>
           {techIcons.map((icon) => (
             <div className={styles.techGroup}>

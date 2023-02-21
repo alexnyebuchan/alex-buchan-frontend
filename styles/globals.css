@@ -5,17 +5,8 @@
   --highlight-color: rgb(245, 245, 245);
 }
 
-/* :root {
-  --primary-color: rgb(2, 0, 1);
-  --background: rgb(243, 227, 175);
-  --secondary-color: rgb(91, 159, 170);
-  --highlight-color: rgb(185, 47, 21);
-} */
-
 /* default font */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-/* 70s font */
-@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
 
 * {
   box-sizing: border-box;
@@ -30,6 +21,7 @@ body {
   font-family: 'Inconsolata', monospace;
   /* font-family: 'Corben', cursive; */
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -74,4 +66,13 @@ button {
 button:hover {
   background: var(--highlight-color);
   color: var(--secondary-color);
+}
+
+input,
+textarea {
+  border: 2px solid var(--primary-color);
+  border-radius: 15px;
+  height: 50px;
+  outline: none;
+  padding: 10px;
 }

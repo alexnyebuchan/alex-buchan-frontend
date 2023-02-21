@@ -7,9 +7,10 @@
 }
 
 .myProjects {
-  color: var(--highlight-color);
-  font-size: large;
+  color: var(--primary-color);
+  /* font-size: large; */
   padding: 0 15px;
+  margin-bottom: 15px;
 }
 
 .tech {
