@@ -31,7 +31,7 @@ function about() {
           <Image className={styles.profile} src={Profile} />
           <section className={styles.profileInfo}>
             <p>Alex Buchan</p>
-            <p>alexnyebuchan@gmail.com</p>
+            <a href="mailto:alexnyebuchan@gmail.com">alexnyebuchan@gmail.com</a>
             <p>+447494906464</p>
             <p>London, UK</p>
           </section>

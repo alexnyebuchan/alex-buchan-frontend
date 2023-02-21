@@ -20,15 +20,20 @@
 }
 
 .profile {
-  max-width: 320px;
+  width: 100%;
+  max-width: 300px;
   height: auto;
-  max-height: 300px;
   padding-right: 25px;
 }
 
 .profileInfo {
   display: block;
-  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.profileInfo a {
+  text-decoration: underline;
 }
 
 .icon {
