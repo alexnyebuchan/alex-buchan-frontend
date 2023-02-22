@@ -116,9 +116,9 @@ function beatchain() {
               academic qualifications to be a React developer at Beatchain.
             </h4>
           </div>
-          <Link href="/">
+          <a href="/">
             <button>View My Portfolio</button>
-          </Link>
+          </a>
         </section>
         <section id="tech" className={styles.mainTech}>
           <h4>TECHNOLOGIES</h4>

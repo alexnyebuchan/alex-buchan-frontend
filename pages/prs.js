@@ -4,7 +4,7 @@ import styles from '@/styles/prs.module.css';
 
 import { IoIosArrowForward } from 'react-icons/io';
 
-import Logo from '../public/images/logos/prs.jpg';
+import Logo from '../public/images/icons/prs.svg';
 
 import CSSIcon from '../public/images/icons/css-3.svg';
 import DjangoIcon from '../public/images/icons/django-icon.svg';
@@ -63,12 +63,10 @@ function prs() {
       <div className={styles.navContainer}>
         <div className={styles.navbar}>
           <div className={styles.leftNav}>
-            {/* Insert Logo */}
-
             <span className={styles.navLogo}>
-              <Image src={Logo} width={55} className={styles.logo} />
-              Alex Buchan CV
+              <Image src={Logo} width={70} className={styles.logo} />
             </span>
+            <h3>Alex Buchan CV</h3>
             <a href="#tech">My Technologies</a>
             <a href="#emp">Previous Employment</a>
             <a href="#skills">Skills</a>
@@ -106,16 +104,16 @@ function prs() {
                 skills and academic qualifications to be a front-end developer
                 at PRS.
               </h4>
-              <Link href="/">
+              <a href="/">
                 <button className={styles.viewPort}>
                   View My Portfolio <IoIosArrowForward />
                 </button>
-              </Link>
+              </a>
             </span>
           </div>
         </section>
         <section id="tech" className={styles.mainTech}>
-          <h4>TECHNOLOGIES</h4>
+          <h4>Technologies</h4>
           <h5>Frontend</h5>
           <ul>
             <li>
@@ -190,7 +188,7 @@ function prs() {
           </div>
         </section>
         <section id="emp" className={styles.mainEmp}>
-          <h4>PREVIOUS EMPLOYMENT</h4>
+          <h4>Previous Employment</h4>
           <h5>
             Juno Records Customer Service/ Sales (May 2018-October 2021, full
             time)
@@ -239,7 +237,7 @@ function prs() {
           </ul>
         </section>
         <section id="skills" className={styles.mainSkills}>
-          <h4>SKILLS</h4>
+          <h4>Skills</h4>
           <ul>
             <li>
               Can <strong>focus</strong> intensely for long periods of time,
@@ -265,7 +263,7 @@ function prs() {
           </ul>
         </section>
         <section id="acad" className={styles.mainAcad}>
-          <h4>ACADEMIA</h4>
+          <h4>Academia</h4>
           <div>
             <span>
               <h5>University of Sheffield (2011-2014)</h5>
