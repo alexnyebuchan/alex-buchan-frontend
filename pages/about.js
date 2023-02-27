@@ -38,15 +38,15 @@ function about() {
         </span>
 
         <p>
-          Having worked in Customer Service and tech related roles for the last
-          three years at Juno Records, recently I made the decision to begin a
-          career in web development. After starting the way all devs do,
-          learning HTML and CSS, I made the slightly leftfield choice of
-          learning Python and the backend framework Django next. This was
-          because of my interest in API's and I wanted to build my first dynamic
-          website that I could post online. Safe to say, without the knowledge
-          of Javascript or a front end framework, it looked like something made
-          in the 1990s, but it did the trick.
+          Having worked in technical support for the last three years at Juno
+          Records, I made the decision to begin learning web development. After
+          starting the way all devs do, learning HTML and CSS, I made the
+          slightly leftfield choice of learning Python and the backend framework
+          Django next. This was because of my interest in API's and I wanted to
+          build my first dynamic website that I could post online. Safe to say,
+          without the knowledge of Javascript or a front end framework, it
+          looked like something made in the 1990s, but it just about did the
+          trick.
         </p>
         <div className={styles.iconContainer}>
           <span>
@@ -92,7 +92,8 @@ function about() {
           Currently I am working on some clone websites, including a Guardian
           copy using it's API. I am mainly looking for a front-end role working
           with React (or preferably Next) or a full stack role where I get to
-          work on all areas.
+          work on all areas. Please contact me <Link href="/contact">here</Link>{' '}
+          for more infomation.
         </p>
       </div>
     </Layout>
