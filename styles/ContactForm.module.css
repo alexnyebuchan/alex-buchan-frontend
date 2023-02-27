@@ -26,13 +26,13 @@
 }
 
 .formGroup {
-  display: flex;
-  justify-content: space-between;
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .formControl {
-  max-width: 500px;
+  max-width: 600px;
   width: 100%;
   font-family: 'Inconsolata', monospace;
   color: var(--primary-color);

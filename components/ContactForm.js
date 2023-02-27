@@ -54,10 +54,8 @@ function ContactForm() {
       >
         <div className={styles.formInputs}>
           <div className={styles.formGroup}>
-            <label className={styles.label} htmlFor="user_name">
-              Name:
-            </label>
             <input
+              placeholder="Name"
               type="text"
               className={styles.formControl}
               required
@@ -65,23 +63,19 @@ function ContactForm() {
             />
           </div>
           <div className={styles.formGroup}>
-            <label className={styles.label} htmlFor="user_email">
-              Email:
-            </label>
             <input
               type="email"
               className={styles.formControl}
               required
               name="user_email"
+              placeholder="Email"
             />
           </div>
           <div className={styles.formGroup}>
-            <label className={styles.label} htmlFor="user_message">
-              Message:
-            </label>
             <textarea
               className={styles.formControl}
               name="user_message"
+              placeholder="Message"
             ></textarea>
           </div>
         </div>

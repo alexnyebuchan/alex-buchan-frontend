@@ -1,10 +1,25 @@
 import Head from 'next/head';
 import styles from '@/styles/Layout.module.css';
 
+import { useState, useEffect } from 'react';
+
 import Navbar from './Navbar';
 import Footer from './Footer';
 
 function Layout({ children }) {
+  //Nabar scrolling
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+  };
+
   return (
     <div>
       <Head>
@@ -31,7 +46,7 @@ function Layout({ children }) {
           rel="stylesheet"
         />
       </Head>
-      <Navbar />
+      <Navbar scrollPosition={scrollPosition} />
       <div className={styles.container}>{children}</div>
       <Footer />
     </div>

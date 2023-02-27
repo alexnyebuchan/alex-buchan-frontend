@@ -3,7 +3,7 @@
 }
 
 .themeBtn {
-  width: 100%;
+  width: 100px;
   border: 1px solid var(--primary-color);
 }
 
@@ -29,5 +29,8 @@
   .theme {
     width: 65%;
     margin-top: 32px;
+  }
+  .themeBtn {
+    width: 100%;
   }
 }

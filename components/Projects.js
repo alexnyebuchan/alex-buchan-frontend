@@ -23,7 +23,7 @@ function Projects() {
           You can also view the code for this portfolio website{' '}
           <a
             target="_blank"
-            href="https://github.com/alexnyebuchan/alzandersone"
+            href="https://github.com/alexnyebuchan/alex-buchan-portfolio"
           >
             here.
           </a>

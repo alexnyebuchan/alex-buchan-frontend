@@ -73,9 +73,9 @@ function Hero() {
           ))}
         </div>
         After over 3 years working in technical support for Juno Records in
-        London, I have become passionate about web development and completed
+        London, I've since become passionate about web development and completed
         multiple courses on Udemy, including Javascript, React and Django.
-        Please see below for examples of live websites I have completed. I am
+        Please see below for examples of live websites I've completed. I am
         looking to learn and grow in this exciting field, for any enquires
         please <Link href="/contact">contact me here.</Link>
       </div>

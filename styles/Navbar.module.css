@@ -1,16 +1,29 @@
+.navContainer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+}
+
+#navScroll {
+  top: -71px;
+}
+
 .navbar {
   background-color: var(--secondary-color);
-  height: 50px;
+  height: 71px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   /* background-color: gray; */
   padding: 0 25px;
   border-bottom: 2px solid;
+  font-size: 17px;
 }
 
 .link {
-  padding: 10px;
+  padding: 12px;
   display: flex;
   align-items: center;
 }
@@ -18,6 +31,10 @@
 .links {
   display: flex;
   align-items: center;
+}
+
+.navbar a {
+  transition: color 0.15s ease-out;
 }
 
 .githubImg {
@@ -30,6 +47,10 @@
   width: 26px;
   position: relative;
   top: 2px;
+}
+
+.dl {
+  margin-left: 3px;
 }
 
 .dropdown {
@@ -45,15 +66,24 @@
   flex-direction: column;
   position: absolute;
   background-color: var(--secondary-color);
-  border: 1px solid black;
+  border: 1px solid var(--primary-color);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   min-width: 80px;
-  padding: 10px;
+  width: 130px;
   right: 0px;
 }
 
-@media (max-width: 480px) {
+.dropdownContent a {
+  padding: 10px 14px;
+  border-top: 1px solid var(--primary-color);
+}
+
+.dropdownContent a:hover {
+  background-color: var(--background-color);
+}
+
+@media (max-width: 500px) {
   .links {
     display: none;
   }
