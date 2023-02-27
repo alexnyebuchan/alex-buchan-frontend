@@ -1,3 +1,8 @@
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
 .contactHero {
   padding: 20px 20px;
   display: flex;

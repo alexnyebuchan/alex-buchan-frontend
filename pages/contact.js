@@ -18,7 +18,9 @@ function contact() {
           </button>
         </Link>
       </div>
-      <ContactForm />
+      <div className={styles.contact}>
+        <ContactForm />
+      </div>
     </Layout>
   );
 }
