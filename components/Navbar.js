@@ -1,9 +1,12 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '@/styles/Navbar.module.css';
 
 import { FaGithubSquare } from 'react-icons/fa';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { HiDownload } from 'react-icons/hi';
+
+import ABLogo from '../public/images/logos/alexbuchanlogo1.svg';
 
 function Navbar({ scrollPosition }) {
   return (
@@ -12,7 +15,9 @@ function Navbar({ scrollPosition }) {
       id={scrollPosition > 27 ? styles.navScroll : ''}
     >
       <div className={styles.navbar}>
-        <Link href="/"> Alex Buchan</Link>
+        <Link href="/">
+          <Image className={styles.logo} src={ABLogo} alt="/" width={46} />
+        </Link>
 
         {/* Dropdown */}
         {scrollPosition < 27 && (

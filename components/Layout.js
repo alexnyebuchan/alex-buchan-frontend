@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '@/styles/Layout.module.css';
+import Banner from '@/components/Banner.js';
 
 import { useState, useEffect } from 'react';
 
@@ -47,6 +48,7 @@ function Layout({ children }) {
         />
       </Head>
       <Navbar scrollPosition={scrollPosition} />
+      <Banner />
       <div className={styles.container}>{children}</div>
       <Footer />
     </div>
