@@ -26,7 +26,7 @@ const projects = [
     description:
       'My first live React project, which is a simple portfolio site for my music as Al Zanders. Utilises React basics such as Components, Props, Router and Fetch. For the styling I chose React-Bootstrap, including a carousel on the Hero component, Pagination, Dropdown menus and more. The website is fully dynamic using a Django backend and the Django Rest Framework for the API. News items and releases can be added online using the Django admin area.',
     github: 'https://github.com/alexnyebuchan/alzandersone',
-    url: 'http://www.alzanders.co.uk/',
+    url: 'https://www.alzanders.co.uk/',
     tech: [
       {
         url: '/images/icons/react.svg',
