@@ -61,7 +61,7 @@ function Hero() {
       <div className={styles.heroName}>
         <h1>Alex Buchan</h1>
         <h2>
-          React/ Full-Stack Developer{' '}
+          Full-Stack Developer{' '}
           {state.currentTheme === 'napoli' && <GiPalmTree />}
         </h2>
         <div className={styles.techContainer}>
@@ -73,11 +73,12 @@ function Hero() {
           ))}
         </div>
         After over 3 years working in technical support for Juno Records in
-        London, I've retrained and found a passion for web development, focusing
-        on React and Next.js, as well as being qualified in backend technologies
-        such as Django. I love working in teams and building new projects, and
-        I'm keen to learn and grow further in this exciting field. For any
-        enquires please <Link href="/contact">contact me here.</Link>
+        London, I've retrained and found a passion for web development. Focusing
+        mainly on React and Next.js, I'm also qualified in backend technologies
+        such as Django or Strapi, creating or consuming API's. I love working in
+        teams and building new projects, and I'm keen to learn and grow further
+        in this exciting field. For any enquires please{' '}
+        <Link href="/contact">contact me here.</Link>
       </div>
 
       <ThemeSelector />

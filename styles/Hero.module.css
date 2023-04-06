@@ -58,3 +58,8 @@
     flex-direction: column;
   }
 }
+@media (max-width: 850px) {
+  .hero {
+    margin-top: 71px;
+  }
+}
