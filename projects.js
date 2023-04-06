@@ -48,7 +48,7 @@ const projects = [
     id: 3,
     title: '92 Groove Music Player (live summer 2023)',
     description:
-      "New music platform with a custom built music player. Uses a Next.js front-end for improved SEO. The audio player utilises useContext and useReducer hooks for state management, as well as the  CSS module system for the UI. New mixes can be added using the Strapi backend, which uploads audio and images to cloudinary. Currently I'm using dummy data from previous radio shows but looking to go live Summer 2023. Have a listen!",
+      "New music platform with a bespoke, custom built music player. Uses a Next.js front-end for improved SEO. The audio player utilises useContext and useReducer hooks for state management, as well as the  CSS module system for the UI. New mixes can be added using the Strapi backend, which uploads audio and images to cloudinary. Currently I'm using dummy data from previous radio shows but looking to go live Summer 2023. Have a listen!",
     github: 'https://github.com/alexnyebuchan/92groove',
     url: 'https://www.92groove.uk/',
     tech: [

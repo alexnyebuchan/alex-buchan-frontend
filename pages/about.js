@@ -28,7 +28,7 @@ function about() {
       </div>
       <div className={styles.aboutInfoContainer}>
         <span className={styles.profileSection}>
-          <Image className={styles.profile} src={Profile} />
+          <Image alt="/" className={styles.profile} src={Profile} />
           <section className={styles.profileInfo}>
             <p>Alex Buchan</p>
             <a href="mailto:alexnyebuchan@gmail.com">alexnyebuchan@gmail.com</a>

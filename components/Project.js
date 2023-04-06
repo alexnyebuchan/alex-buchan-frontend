@@ -38,7 +38,7 @@ function Project({ project }) {
 
           <div>
             {icons.map((icon) => (
-              <div className={styles.tech}>
+              <div key={icon.title} className={styles.tech}>
                 <Image
                   className={styles.techIcon}
                   alt="/"

@@ -9,7 +9,7 @@ import { ThemeContext } from '@/context/ThemeContext';
 
 import { GiPalmTree } from 'react-icons/gi';
 
-import CSSIcon from '../public/images/icons/css-3.svg';
+import CSSIcon from '../public/images/icons/sass-1.svg';
 import DjangoIcon from '../public/images/icons/django-icon.svg';
 import HtmlIcon from '../public/images/icons/html-5.svg';
 import JsIcon from '../public/images/icons/javascript.svg';
@@ -28,7 +28,7 @@ function Hero() {
     },
     {
       src: CSSIcon,
-      title: 'CSS 3',
+      title: 'CSS/ Sass',
     },
     {
       src: JsIcon,
@@ -66,8 +66,8 @@ function Hero() {
         </h2>
         <div className={styles.techContainer}>
           {techIcons.map((icon) => (
-            <div className={styles.techGroup}>
-              <Image className={styles.tech} src={icon.src} />
+            <div key={icon.title} className={styles.techGroup}>
+              <Image alt="/" className={styles.tech} src={icon.src} />
               <span className={styles.techInfo}>{icon.title}</span>
             </div>
           ))}
