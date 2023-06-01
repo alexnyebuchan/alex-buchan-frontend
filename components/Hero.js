@@ -72,7 +72,7 @@ function Hero() {
             </div>
           ))}
         </div>
-        Freelance web developer with a focus on React and Next.js, I'm also
+        Freelance web developer with a focus on React and Next.js. I'm also
         qualified in backend technologies such as Django or Strapi, creating or
         consuming API's. I love working in teams and building new projects, and
         I'm keen to learn and grow further in this exciting field. For any
