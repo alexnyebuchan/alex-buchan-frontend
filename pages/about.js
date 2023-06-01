@@ -89,11 +89,10 @@ function about() {
           </div>
         </div>
         <p>
-          Currently I am working on some clone websites, including a Guardian
-          copy using it's API. I am mainly looking for a front-end role working
-          with React (or preferably Next) or a full stack role where I get to
-          work on all areas. Please contact me <Link href="/contact">here</Link>{' '}
-          for more infomation.
+          Currently I am working as a freelance developer. My latest project is
+          a website where clients can upload applications privately for the
+          Transport Planning Society (tps.org.uk). Please contact me{' '}
+          <Link href="/contact">here</Link> for more infomation.
         </p>
       </div>
     </Layout>

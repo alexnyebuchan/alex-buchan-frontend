@@ -11,7 +11,7 @@ import CSSIcon from '../public/images/icons/css-3.svg';
 function Projects() {
   return (
     <>
-      <h2 className={styles.myProjects}> Projects:</h2>
+      <h2 className={styles.myProjects}> Recent Projects:</h2>
       <div className={styles.projectsContainer}>
         {projects.map((project) => (
           <Project key={project.id} project={project} />
