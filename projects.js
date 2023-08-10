@@ -1,9 +1,33 @@
 const projects = [
   {
     id: 1,
+    title: 'Transport Planning Society (freelance)',
+    description:
+      'Developed a full stack application for TPS which allows clients to upload information through various sources.  Selected the most suitable technologies to fit the customer’s needs, in this case Next and Django. Used Git for managing the repository, increasing efficiency and reducing errors. Developed test plan based on acceptance criteria with business team to ensure application is robust. Utilised microservices design pattern with Heroku and Vercel for CI/CD. Used Postgres SQL for storing and managing data.',
+    github: 'https://github.com/alexnyebuchan/tps_frontend',
+    url: 'https://www.tps-skills.org/',
+    tech: [
+      {
+        url: '/images/icons/nextjs-icon.svg',
+        title: 'Next.js',
+      },
+      {
+        url: '/images/icons/sass-1.svg',
+        title: 'Sass',
+      },
+      {
+        url: '/images/icons/django-icon.svg',
+        title: 'Django',
+      },
+    ],
+    image: '/images/project/tps.JPG',
+    popupImage: '/images/project/tps-main.JPG',
+  },
+  {
+    id: 2,
     title: 'Guardian Technology Clone',
     description:
-      "My clone of the Guardian UK's technology section. Consumes the Guardian API to load latest articles, using getServerSideProps(), fetch() and an API key. Local Storage was used to leave comments specific to each page on individual articles. Further, a search bar with a debounce function was added to make it easier to find articles in the database. All styling to copy to original site was done with Sass. Page is fully scalable for tablets and mobiles, give it a go!",
+      'A clone of the Guardian news website to demonstrate ability to translate user designs into a functional website. Utilises the Guardian news REST Api to provide real time news information. Translated designs from the real website into Next.js code. Designed with SEO best practices in mind.',
     github: 'https://github.com/alexnyebuchan/guardian-frontend',
     url: 'https://guardian-frontend.vercel.app/',
     tech: [
@@ -21,10 +45,10 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: 'Al Zanders Current Website ',
     description:
-      'My first live React project, which is a simple portfolio site for my music as Al Zanders. Utilises React basics such as Components, Props, Router and Fetch. For the styling I chose React-Bootstrap, including a carousel on the Hero component, Pagination, Dropdown menus and more. The website is fully dynamic using a Django backend and the Django Rest Framework for the API. News items and releases can be added online using the Django admin area.',
+      'Full stack application displaying latest news and releases for side hustle music production and DJ business. Utilises a Django backend and React frontend. Integrated React-Bootstrap component library for consistent styles and fast development.',
     github: 'https://github.com/alexnyebuchan/alzandersone',
     url: 'https://www.alzanders.co.uk/',
     tech: [
@@ -45,10 +69,10 @@ const projects = [
     popupImage: '/images/project/alzanders-main.jpg',
   },
   {
-    id: 3,
+    id: 4,
     title: '92 Groove Music Player (live summer 2023)',
     description:
-      "New music platform with a bespoke, custom built music player. Uses a Next.js front-end for improved SEO. The audio player utilises useContext and useReducer hooks for state management, as well as the  CSS module system for the UI. New mixes can be added using the Strapi backend, which uploads audio and images to cloudinary. Currently I'm using dummy data from previous radio shows but looking to go live Summer 2023. Have a listen!",
+      "New music platform with a bespoke, custom built music player. Uses a Next.js front-end for improved SEO. The audio player utilises useContext and useReducer hooks for state management, as well as the  CSS module system for the UI. New mixes can be added using the Strapi backend, which uploads audio and images to cloudinary. Currently I'm using dummy data from previous radio shows but looking to go live Summer 2024.",
     github: 'https://github.com/alexnyebuchan/92groove',
     url: 'https://www.92groove.uk/',
     tech: [
@@ -69,7 +93,7 @@ const projects = [
     popupImage: '/images/project/92groove-main.jpg',
   },
   {
-    id: 4,
+    id: 5,
     title: 'This Portfolio',
     description:
       'This site uses Next.js and the CSS module system for styling. UseContext, UseReducer and UseEffect were used for the theme selection.',

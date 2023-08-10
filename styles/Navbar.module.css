@@ -43,7 +43,7 @@
   transition: color 0.15s ease-out;
 }
 
-.githubImg {
+.navIcon {
   height: auto;
   width: 26px;
 }
@@ -89,7 +89,7 @@
   background-color: var(--background-color);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .links {
     display: none;
   }

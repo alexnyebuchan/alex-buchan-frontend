@@ -5,6 +5,7 @@ import styles from '@/styles/Navbar.module.css';
 import { FaGithubSquare } from 'react-icons/fa';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { HiDownload } from 'react-icons/hi';
+import { AiFillLinkedin } from 'react-icons/ai';
 
 import ABLogo from '../public/images/logos/alexbuchanlogo1.svg';
 
@@ -45,28 +46,35 @@ function Navbar({ scrollPosition }) {
 
         <div className={styles.links}>
           <a
-            href="files/AlexBuchanCV%20.pdf"
+            href="files/AlexBuchanCVAugust2023.pdf"
             alt="alt text"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}
             download
           >
-            CV
-            <HiDownload className={styles.dl} />
+            <HiDownload className={styles.navIcon} /> CV
           </a>
-          <Link className={styles.link} href="/about">
-            About
-          </Link>
-          <Link className={styles.link} href="/contact">
-            Contact
+          <Link
+            className={styles.link}
+            href="https://www.linkedin.com/in/alex-buchan-dev/"
+            target="_blank"
+          >
+            <AiFillLinkedin className={styles.navIcon} /> LinkedIn
           </Link>
           <Link
             className={styles.link}
             href="https://github.com/alexnyebuchan"
             target="_blank"
           >
-            <FaGithubSquare className={styles.githubImg} />
+            {' '}
+            <FaGithubSquare className={styles.navIcon} /> Github
+          </Link>
+          <Link className={styles.link} href="/contact">
+            Contact
+          </Link>
+          <Link className={styles.link} href="/about">
+            About
           </Link>
         </div>
       </div>

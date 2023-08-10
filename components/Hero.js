@@ -23,10 +23,6 @@ function Hero() {
 
   const techIcons = [
     {
-      src: HtmlIcon,
-      title: 'HTML 5',
-    },
-    {
       src: CSSIcon,
       title: 'CSS/ Sass',
     },
@@ -61,7 +57,7 @@ function Hero() {
       <div className={styles.heroName}>
         <h1>Alex Buchan</h1>
         <h2>
-          Full-Stack Developer{' '}
+          Freelance Software Developer{' '}
           {state.currentTheme === 'napoli' && <GiPalmTree />}
         </h2>
         <div className={styles.techContainer}>
@@ -72,11 +68,11 @@ function Hero() {
             </div>
           ))}
         </div>
-        Freelance web developer with a focus on React and Next.js. I'm also
-        qualified in backend technologies such as Django or Strapi, creating or
-        consuming API's. I love working in teams and building new projects, and
-        I'm keen to learn and grow further in this exciting field. For any
-        enquires please <Link href="/contact">contact me here.</Link>
+        Highly motivated and friendly individual with a passion for software
+        development and building applications. Specialising in React tech stack,
+        with experience in backend technologies such as Django and Strapi CMS.
+        Keen to learn and grow further in this exciting field. For any enquires
+        please <Link href="/contact">contact me here.</Link>
       </div>
 
       <ThemeSelector />
