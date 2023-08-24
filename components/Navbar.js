@@ -26,15 +26,22 @@ function Navbar({ scrollPosition }) {
             <BiMenuAltRight className={styles.hamburger} />
             <div className={styles.dropdownContent}>
               <a
-                href="files/AlexBuchanCV%20.pdf"
+                href="files/AlexBuchanCVAugust2023.pdf"
                 alt="alt text"
                 target="_blank"
                 rel="noopener noreferrer"
+                className={styles.link}
                 download
               >
-                CV
-                <HiDownload className={styles.dl} />
+                <HiDownload className={styles.navIcon} /> CV
               </a>
+              <Link
+                className={styles.link}
+                href="https://www.linkedin.com/in/alex-buchan-dev/"
+                target="_blank"
+              >
+                <AiFillLinkedin className={styles.navIcon} /> LinkedIn
+              </Link>
               <Link href="/about">About</Link>
               <Link href="/contact">Contact</Link>
               <Link href="https://github.com/alexnyebuchan" target="_blank">

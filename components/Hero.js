@@ -11,12 +11,12 @@ import { GiPalmTree } from 'react-icons/gi';
 
 import CSSIcon from '../public/images/icons/sass-1.svg';
 import DjangoIcon from '../public/images/icons/django-icon.svg';
-import HtmlIcon from '../public/images/icons/html-5.svg';
 import JsIcon from '../public/images/icons/javascript.svg';
 import NextIcon from '../public/images/icons/nextjs-icon.svg';
 import ReactIcon from '../public/images/icons/react.svg';
 import StrapiIcon from '../public/images/icons/strapi-icon.svg';
 import GithubIcon from '../public/images/icons/github.svg';
+import TypescriptIcon from '../public/images/icons/typescript.svg';
 
 function Hero() {
   const { state } = useContext(ThemeContext);
@@ -29,6 +29,10 @@ function Hero() {
     {
       src: JsIcon,
       title: 'Javascript',
+    },
+    {
+      src: TypescriptIcon,
+      title: 'Typescript',
     },
     {
       src: ReactIcon,
