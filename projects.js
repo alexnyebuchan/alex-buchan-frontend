@@ -53,9 +53,9 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Guardian Technology Clone',
+    title: 'Guardian Clone',
     description:
-      'A clone of the Guardian news website to demonstrate ability to translate user designs into a functional website. Utilises the Guardian news REST Api to provide real time news information. Translated designs from the real website into Next.js code. Designed with SEO best practices in mind.',
+      'A clone of the Guardian news website (Technology Section) to demonstrate ability to translate user designs into a functional website. Utilises the Guardian news REST Api to provide real time news information. Translated designs from the real website into Next.js code. Designed with SEO best practices in mind.',
     github: 'https://github.com/alexnyebuchan/guardian-frontend',
     url: 'https://guardian-frontend.vercel.app/',
     tech: [
