@@ -61,8 +61,7 @@ function Hero() {
       <div className={styles.heroName}>
         <h1>Alex Buchan</h1>
         <h2>
-          Freelance Software Developer{' '}
-          {state.currentTheme === 'napoli' && <GiPalmTree />}
+          Software Developer {state.currentTheme === 'napoli' && <GiPalmTree />}
         </h2>
         <div className={styles.techContainer}>
           {techIcons.map((icon) => (
