@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: 'CS50: Recipe Maker',
     description:
-      "The Recipe Maker is a full-stack web application that takes as input the user’s perishable and non-perishable kitchen ingredients before making a fetch request to the Chat-GPT API to get some suggested recipes. The frontend is a simple mixture of HTML, CSS, and vanilla JavaScript. The backend utilizes Flask, a database, and SQL to store a user's larder so they don’t have to retype it every time they log in.",
+      "CS50 Final Project which I passed. The Recipe Maker is a full-stack web application that takes as input the user’s perishable and non-perishable kitchen ingredients before making a fetch request to the Chat-GPT API to get some suggested recipes. The frontend is a simple mixture of HTML, CSS, and vanilla JavaScript. The backend utilizes Flask, a database, and SQL to store a user's larder so they don’t have to retype it every time they log in.",
     github: 'https://github.com/alexnyebuchan/cs50-project',
     url: 'https://youtu.be/FCnVLECip_Q',
     tech: [
@@ -59,6 +59,10 @@ const projects = [
     github: 'https://github.com/alexnyebuchan/web-dev-fundamentals',
     url: 'https://web-dev-fundamentals-eight.vercel.app/',
     tech: [
+      {
+        url: '/images/icons/sass-1.svg',
+        title: 'Sass',
+      },
       {
         url: '/images/icons/typescript.svg',
         title: 'TypeScript',
