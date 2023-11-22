@@ -53,6 +53,30 @@ const projects = [
   },
   {
     id: 3,
+    title: 'Web Dev Fundamentals',
+    description:
+      'This simple web application takes a key web development term such as ‘URL’ or ‘DOM’ from a list of terms and returns one at random, with a title and definition. The list is in JSON and updated regularly, the app is configured with Vite, Typescript and React. Download from here or use online.',
+    github: 'https://github.com/alexnyebuchan/web-dev-fundamentals',
+    url: 'https://web-dev-fundamentals-eight.vercel.app/',
+    tech: [
+      {
+        url: '/images/icons/typescript.svg',
+        title: 'TypeScript',
+      },
+      {
+        url: '/images/icons/react.svg',
+        title: 'React',
+      },
+      {
+        url: '/images/icons/vite.svg',
+        title: 'Vite',
+      },
+    ],
+    image: '/images/project/webdevfund.jpg',
+    popupImage: '/images/project/webdevfund-main.jpg',
+  },
+  {
+    id: 4,
     title: 'Guardian Clone',
     description:
       'A clone of the Guardian news website (Technology Section) to demonstrate ability to translate user designs into a functional website. Utilises the Guardian news REST Api to provide real time news information. Translated designs from the real website into Next.js code. Designed with SEO best practices in mind.',
@@ -72,7 +96,7 @@ const projects = [
     popupImage: '/images/project/guardianpopup.png',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Al Zanders Current Website',
     description:
       'Full stack application displaying latest news and releases for side hustle music production and DJ business. Utilises a Django backend and React frontend. Integrated React-Bootstrap component library for consistent styles and fast development.',
@@ -96,7 +120,7 @@ const projects = [
     popupImage: '/images/project/alzanders-main.jpg',
   },
   {
-    id: 5,
+    id: 6,
     title: '92 Groove',
     description:
       "New music platform with a bespoke, custom built music player. Uses a Next.js front-end for improved SEO. The audio player utilises useContext and useReducer hooks for state management, as well as the  CSS module system for the UI. New mixes can be added using the Strapi backend, which uploads audio and images to cloudinary. Currently I'm using dummy data from previous radio shows but looking to go live Summer 2024.",
@@ -120,7 +144,7 @@ const projects = [
     popupImage: '/images/project/92groove-main.jpg',
   },
   {
-    id: 6,
+    id: 7,
     title: 'This Portfolio',
     description:
       'This site uses Next.js and the CSS module system for styling. UseContext, UseReducer and UseEffect were used for the theme selection.',
