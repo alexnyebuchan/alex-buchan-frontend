@@ -26,7 +26,7 @@ function Navbar({ scrollPosition }) {
             <BiMenuAltRight className={styles.hamburger} />
             <div className={styles.dropdownContent}>
               <a
-                href="files\Alex Buchan CV November 2023.pdf"
+                href="files\Alex Buchan CV December.docx"
                 alt="alt text"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Navbar({ scrollPosition }) {
 
         <div className={styles.links}>
           <a
-            href="files\Alex Buchan CV November 2023.pdf"
+            href="files\Alex Buchan CV December.docx"
             alt="alt text"
             target="_blank"
             rel="noopener noreferrer"
