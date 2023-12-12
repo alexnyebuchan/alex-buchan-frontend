@@ -55,7 +55,7 @@ const projects = [
     id: 3,
     title: 'Web Dev Fundamentals',
     description:
-      'This simple web application takes a key web development term such as ‘URL’ or ‘DOM’ from a list of terms and returns one at random, with a title and definition. The list is in JSON and updated regularly, the app is configured with Vite, Typescript and React. Download from here or use online.',
+      'This simple web application takes a key web development term such as ‘URL’ or ‘DOM’ from a list of terms and returns one at random, with a title and definition. The list is in JSON and updated regularly, the app is configured with Vite, Typescript and React. Currently undergoing Jest integration on a seperate Git Branch. Download from here or use online.',
     github: 'https://github.com/alexnyebuchan/web-dev-fundamentals',
     url: 'https://web-dev-fundamentals-eight.vercel.app/',
     tech: [
