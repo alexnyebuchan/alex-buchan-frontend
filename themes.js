@@ -11,12 +11,6 @@ const themes = {
     secondary: 'rgb(91, 159, 170)',
     highlight: 'rgb(185, 47, 21)',
   },
-  // rave: {
-  //   primary: 'rgb(26,24,0)',
-  //   background: 'rgb(243,235,12)',
-  //   secondary: 'white',
-  //   highlight: 'rgb(26,24,0)',
-  // },
   napoli: {
     primary: '#223314',
     background: '#C79D91',
