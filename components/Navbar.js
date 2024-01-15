@@ -20,8 +20,7 @@ function Navbar({ scrollPosition }) {
           <Image className={styles.logo} src={ABLogo} alt="/" width={46} />
         </Link>
 
-        {/* Dropdown */}
-        {scrollPosition < 27 && (
+        {/* Hamburger dropdown */}
           <div className={styles.dropdown}>
             <BiMenuAltRight className={styles.hamburger} />
             <div className={styles.dropdownContent}>
@@ -49,11 +48,11 @@ function Navbar({ scrollPosition }) {
               </Link>
             </div>
           </div>
-        )}
-
+        
+        {/* Main Nav */}
         <div className={styles.links}>
           <a
-            href="files\Alex Buchan CV December.docx"
+            href="files\Alex Buchan CV January.pdf"
             alt="alt text"
             target="_blank"
             rel="noopener noreferrer"
