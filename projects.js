@@ -48,8 +48,8 @@ const projects = [
         title: 'SASS',
       },
     ],
-    image: '/images/project/atlas-main.jpg',
-    popupImage: '/images/project/atlas.jpg',
+    image: '/images/project/atlas-main.png',
+    popupImage: '/images/project/atlas.png',
   },
   {
     id: 3,
