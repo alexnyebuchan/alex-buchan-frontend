@@ -10,7 +10,24 @@
   color: var(--primary-color);
   /* font-size: large; */
   padding: 0 15px;
-  margin-bottom: 15px;
+  margin-bottom: 9px;
+}
+
+.tagContainer {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  padding-left: 15px;
+  margin-bottom: 12px;
+}
+
+.btn {
+  margin-inline: 7px;
+}
+
+#selected {
+  background-color: var(--primary-color);
+  color: var(--background);
 }
 
 .tech {

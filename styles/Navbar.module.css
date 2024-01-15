@@ -3,20 +3,19 @@
   width: 100%;
   left: 0;
   top: 0;
-  transition: top 0.2s ease-in-out;
+  /* transition: top 0.2s ease-in-out; */
+  z-index: 2;
 }
 
-#navScroll {
-  top: -71px;
-}
 
 .navbar {
+  position: sticky;
+  top: 0;
   background-color: var(--secondary-color);
   height: 71px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: gray; */
   padding: 0 25px;
   border-bottom: 2px solid;
   font-size: 17px;
@@ -25,13 +24,16 @@
 .logo {
   margin-top: 6px;
   margin-left: 25px;
-  fill: red;
 }
 
 .link {
   padding: 12px;
   display: flex;
   align-items: center;
+}
+
+.link:hover {
+  background-color: var(--background);
 }
 
 .links {

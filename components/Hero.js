@@ -11,49 +11,44 @@ import { GiPalmTree } from 'react-icons/gi';
 
 import CSSIcon from '../public/images/icons/sass-1.svg';
 import DjangoIcon from '../public/images/icons/django-icon.svg';
-import JsIcon from '../public/images/icons/javascript.svg';
 import NextIcon from '../public/images/icons/nextjs-icon.svg';
 import ReactIcon from '../public/images/icons/react.svg';
-import StrapiIcon from '../public/images/icons/strapi-icon.svg';
 import GithubIcon from '../public/images/icons/github.svg';
 import TypescriptIcon from '../public/images/icons/typescript.svg';
+import ViteIcon from '../public/images/icons/vite.svg';
 
 function Hero() {
   const { state } = useContext(ThemeContext);
 
   const techIcons = [
     {
-      src: CSSIcon,
-      title: 'CSS/ Sass',
-    },
-    {
-      src: JsIcon,
-      title: 'Javascript',
+      src: ReactIcon,
+      title: 'React.js',
     },
     {
       src: TypescriptIcon,
       title: 'Typescript',
     },
     {
-      src: ReactIcon,
-      title: 'React.js',
-    },
-    {
       src: NextIcon,
       title: 'Next.js',
     },
     {
-      src: DjangoIcon,
-      title: 'Django',
-    },
-    {
-      src: StrapiIcon,
-      title: 'Strapi',
+      src: ViteIcon,
+      title: 'Vite',
     },
     {
       src: GithubIcon,
       title: 'Github',
     },
+    {
+      src: CSSIcon,
+      title: 'Sass',
+    },
+    {
+      src: DjangoIcon,
+      title: 'Django',
+    }
   ];
 
   return (

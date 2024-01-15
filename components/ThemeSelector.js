@@ -1,11 +1,13 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { ThemeContext } from '@/context/ThemeContext';
 import styles from '@/styles/ThemeSelector.module.css';
 
 function ThemeSelector() {
+  const [selectedTheme, setSelectedTheme] = useState("default")
   const { dispatch } = useContext(ThemeContext);
 
   const sendTheme = (thm) => {
+    setSelectedTheme(thm)
     dispatch({
       type: 'SET_THEME',
       payload: {
@@ -16,23 +18,9 @@ function ThemeSelector() {
 
   return (
     <div className={styles.theme}>
-      <button className={styles.themeBtn}>^ Select Theme</button>
-      <div className={styles.themeDropdown}>
-        <a onClick={() => sendTheme('seventies')} href="#">
-          70s
-        </a>
-        <a onClick={() => sendTheme('napoli')} href="#">
-          Napoli
-        </a>
-
-        {/* <a onClick={() => sendTheme('rave')} href="#">
-          90's Summer of Love
-        </a> */}
-
-        <a onClick={() => sendTheme('default')} href="#">
-          Dark Theme (default)
-        </a>
-      </div>
+      {selectedTheme === 'default' && (<button className={styles.themeBtn} onClick={() => sendTheme('seventies')} href="#">70's Theme</button>)}
+      {selectedTheme === 'seventies' && (<button className={styles.themeBtn} onClick={() => sendTheme('default')} href="#">Default Theme</button>)}
+      
     </div>
   );
 }

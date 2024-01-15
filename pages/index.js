@@ -57,26 +57,7 @@ export default function Home() {
         '--highlight-color',
         themes.default.highlight
       );
-    } else if (thm === 'napoli') {
-      document.body.style.fontFamily = 'Rozha One, serif';
-
-      document.documentElement.style.setProperty(
-        '--primary-color',
-        themes.napoli.primary
-      );
-      document.documentElement.style.setProperty(
-        '--background',
-        themes.napoli.background
-      );
-      document.documentElement.style.setProperty(
-        '--secondary-color',
-        themes.napoli.secondary
-      );
-      document.documentElement.style.setProperty(
-        '--highlight-color',
-        themes.napoli.highlight
-      );
-    }
+    } 
   }, [state]);
 
   return (

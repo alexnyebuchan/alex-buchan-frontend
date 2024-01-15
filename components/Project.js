@@ -2,12 +2,15 @@ import styles from '@/styles/Project.module.css';
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 import { AiOutlineEye } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
 
 function Project({ project }) {
+  const body = project.description;
   const icons = project.tech;
+
 
   return (
     <div className={styles.projectContainer}>
@@ -50,7 +53,9 @@ function Project({ project }) {
               </div>
             ))}
           </div>
-          <p>{project.description}</p>
+
+          <div dangerouslySetInnerHTML={{__html: body }}></div>
+          
         </div>
       </div>
       <div className={styles.projectLinks}>
