@@ -66,11 +66,15 @@ function Hero() {
             </div>
           ))}
         </div>
+        <p>
         Highly motivated and friendly individual with a passion for software
         development and building applications. Specialising in React tech stack,
         with experience in backend technologies such as Django and Strapi CMS.
         Keen to learn and grow further in this exciting field. For any enquires
         please <Link href="/contact">contact me here.</Link>
+        </p>
+        <br/>
+        <p>Currently working on a Spotify clone, consuming the Spotify API using TypeScript and Vite.</p>
       </div>
 
       <ThemeSelector />
